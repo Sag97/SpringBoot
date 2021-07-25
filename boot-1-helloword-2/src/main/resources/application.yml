@@ -1,0 +1,33 @@
+person:
+  userName: "zhangsan \n 李四"
+#  单引号会输出\n  双引号 \n 会作为换行输出
+  boss: true
+  birth: 1997/08/22
+  age: 18
+#  interests: [篮球，足球]
+  interests:
+    - 篮球
+    - 足球
+    - 18
+  animal: [猫，狗]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english: 80,math: 90}
+  salays:
+    - 9999.99
+    - 990.58
+  pet:
+    name: 狗
+    weight: 99.9
+  allPets:
+    sick:
+      - {name: 狗,weight: 99.99}
+      - name: 阿猫
+        weight: 88.8
+      - name: 啊宠
+        weight: 77.7
+    health:
+      - {name: 阿花,weight: 77.7}
+      - {name: 阿li,weight: 27.7}
+
